@@ -1,0 +1,37 @@
+-------------------Project Title :---------------------------
+ Animal Shelter Website 
+
+-------------------Project Description: -------------------------
+The animal shelter Website is a platform designed to connect animal lovers with adoption opportunities and enable users to help and support animal walfare efforts. 
+Visitors can browse animals for adoption, purchase animal-related products, and report about injured stray animals.
+Shelter staff memebrs can manage client reports and update the adoption listing.
+
+
+-------------------Technology Used :----------------------------
+JavaScript (Subject to change depending on project requirements )
+Frontend: React 
+Backend: Node.js, Express.js
+Database: MongoDB
+Styling CSS and Bootstrap
+Version Control: GitHub
+
+-------------------Features :--------------------------------
+Visitor:
+1- Adopt an animal: Browse available animals and see details iinformation for each
+2- Shop: Purchase animal-related products(toys,food,...)
+3- Report Injured Stray animals: Submit a form with details(location, photo)
+
+Staff:
+1- Manage reports: View reports about injured animals 
+2- Add animals posts: Create posts with animal details for adoption
+3- Edit/Delete animal posts: Update or remove existing posts 
+
+--------------------Suggestions :-------------------------------
+1- Wishlist: users can add products to their wishlist 
+2- Search Bar : users can search about animals based on their breed/type
+3- Chat messages between the user and the member 
+
+
+
+--------------------GitHub Link :-------------------------------
+https://github.com/eyakabech/Animal_Shelter_Project.git
