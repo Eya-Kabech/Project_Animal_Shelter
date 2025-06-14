@@ -1,0 +1,171 @@
+
+.container {
+    padding: 20px 40px;
+    background-color: #f8f9fa;
+    color: #021526;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    position: relative; 
+  }
+  
+  /* Go Back Button */
+  .goBackBtn {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    background-color: #527853;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .goBackBtn:hover {
+    background-color: #3b5d3e;
+  }
+  
+  .wrapper {
+    width: 60%;
+    max-width: 900px;
+    background-color: #e9eed9;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+  }
+  
+  /* Pet Details */
+  .petDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .petDetails h1 {
+    font-size: 2.5rem; 
+    font-weight: bold;
+    color: #527853;
+    text-align: center; 
+    margin-bottom: 20px;
+  }
+  
+  .petDetails img {
+    border-radius: 8px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); 
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .petDetails img:hover {
+    transform: scale(1.05); 
+  }
+  
+  .petDetails p {
+    font-size: 1.1rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Description Text */
+  .descriptionContainer {
+    width: 100%;
+    margin-top: 30px;
+  }
+  
+  .descriptionText {
+    font-size: 1.2rem; 
+    color: #333;
+    line-height: 1.6; 
+    background-color:#d0e0b1
+    ; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 20px; 
+    position: relative;
+  }
+  
+
+  .descriptionText::before {
+    content: "🌟"; 
+    
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.5rem; 
+  }
+  
+  h3 {
+    font-size: 1.8rem; 
+    font-weight: bold;
+    color: #527853;
+    margin-bottom: 15px;
+  }
+  
+ 
+  .descriptionContainer h3 {
+    font-size: 1.6rem; 
+    font-weight: bold;
+    color: #527853;
+    margin-bottom: 10px;
+  }
+  
+ 
+  .shelterSidebar {
+    width: 30%;
+    max-width: 350px;
+    background-color: #e9eed9;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .shelterSidebar h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #527853;
+    margin-bottom: 20px;
+  }
+  
+  .contactInfo p {
+    font-size: 1.1rem;
+    margin: 5px 0;
+  }
+  
+  /* Actions */
+  .actions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    background-color: #527853;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #3b5d3e;
+  }
+  
+  /* Loading */
+  .loading {
+    text-align: center;
+    font-size: 2rem;
+    color: #68b845;
+  }
+  

@@ -1,0 +1,142 @@
+
+.reportsContainer {
+    padding: 20px;
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+  }
+  
+ 
+  .logoutButton, .goBackButton {
+    background-color: #527853;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 10px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    border: none;
+  }
+  
+  .logoutButton:hover, .goBackButton:hover {
+    background-color: #3b5d3e;
+  }
+  
+  /* Reports  */
+  .reportsSection {
+    margin-top: 20px;
+    background-color: #E9EED9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .reportsHeader {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .reportsHeader h2 {
+    font-size: 2rem;
+    color: #527853;
+    font-weight: bold;
+  }
+  
+  .reportsHeader p {
+    font-size: 1rem;
+    color: #021526;
+    font-weight: lighter;
+  }
+  
+  /* Reports Grid */
+  .reportsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  /* Report Card */
+  .reportCard {
+    background-color: white;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-align: center;
+  }
+  
+  .reportCard:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Report Content */
+  .reportContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .reportLocation, .reportInjury {
+    font-size: 1rem;
+    color: #021526;
+  }
+  
+  .reportImage {
+    max-width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+  /* Report Footer */
+  .reportFooter {
+    margin-top: 15px;
+  }
+  
+  .viewReportButton {
+    padding: 10px 15px;
+    background-color: #527853;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .viewReportButton:hover {
+    background-color: #3b5d3e;
+  }
+  
+  /* Loading */
+  .loadingMessage {
+    text-align: center;
+    font-size: 2rem;
+    color: #68b845;
+  }
+span {
+    font-size: 1rem;
+    color: #021526;
+    font-weight: bold; 
+  }
+
+  .deleteButton {
+    background-color: #e74c3c;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 10px;
+  }
+  
+  .deleteButton:hover {
+    background-color: #c0392b;
+  }
+  
+  .deleteButton:active {
+    background-color: #a93226;
+  }
+  
